@@ -524,7 +524,10 @@
 
     .header {
       justify-content: space-around;
-      padding: 16px;
+      width: 100%;
+      margin: 0 auto;
+      padding-left: 16px;
+      padding-right: 16px;
     }
 
     .burger-link {
@@ -533,10 +536,11 @@
 
     .magnifier-mobile {
       display: flex;
-      margin-left: -30px;
+      margin-left: 10px;
     }
   
     .logo {
+      margin-left: 20px;
       margin-right: 0;
     }
   
@@ -546,10 +550,6 @@
   
     .info-how {
       display: none;
-    }
-  
-    .info-account {
-      margin-right: 18px;
     }
   
     .info-account, .info-cart:not(:last-child) {
@@ -563,11 +563,13 @@
   
     .info-account {
       padding-left: 32px;
+      margin-right: 18px;
     }
   
     .info-cart {
       padding-left: 18px;
       width: 25px;
+      margin-right: 16px;
     }
 
     .info-cart__img {
@@ -643,11 +645,13 @@
     }
 
     .section {
-      min-width: 328px;
+      width: 100%;
+      padding-left: 16px;
+      padding-right: 16px;
     }
   
     .section__offer {
-      margin: 0 16px;
+      margin: 0 auto;
     }
   
     .offer__title {
@@ -674,12 +678,14 @@
       justify-content: center;
       align-items: center;
       margin: 0;
-      padding: 0;
+      padding-left: 16px;
+      padding-right: 16px;
     }
   
     .section__search-form__input {
       font-size: 13px;
-      width: 326px;
+      width: 100%;
+      margin: 0;
       padding-top: 10px;
       padding-bottom: 10px;
       padding-left: 16px;
@@ -715,15 +721,31 @@
     }
 
     .article {
-      max-width: 380px;
+      width: 100%;
       margin: 0 auto;
     }
 
+    .guaranteed {
+      margin-left: 16px;
+      margin-right: 16px;
+      min-width: 328px;
+    }
+
+    .choose {
+      margin-left: 16px;
+      margin-right: 16px;
+      min-width: 328px;
+    }
+
+    .choose__list {
+      margin-left: 0;
+    }
+
     .help {
-      margin-top: 49px;
+      min-width: 328px;
+      margin: 49px 16px 40px 16px;
       padding-top: 40px;
       padding-bottom: 27px;
-      margin-bottom: 40px;
     }
     
     .help__quest {
