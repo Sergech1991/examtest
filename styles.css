@@ -710,7 +710,7 @@
     }
 
     .sertif__item {
-      justify-content: center;
+      justify-content: space-around;
     }
 
     .sertif-title {
@@ -718,6 +718,25 @@
       margin-bottom: 16px;
       margin-top: 30px;
       text-align: center;
+    }
+
+    .first-sertif {
+      width: 127px;
+      height: 106px;
+      padding-top: 0;
+    }
+
+    .first-sertif > img {
+      max-width: 100px;
+    }
+       
+  
+    .first-sertif__span {
+      display: none;
+    }
+  
+    .first-sertif:last-child {
+      margin-bottom: 30px;
     }
 
     .article {
