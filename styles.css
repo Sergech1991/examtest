@@ -598,6 +598,7 @@
       width: 65%;
       height: 100vh;
       position: absolute;
+      z-index: 12;  
       top: 0;
       left: 0;
       display: flex;
